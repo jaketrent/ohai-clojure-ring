@@ -1,0 +1,8 @@
+{
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        javax.servlet/javax.servlet-api {:mvn/version "4.0.1"}
+        ring/ring {:mvn/version "1.10.0"}
+        metosin/reitit {:mvn/version "0.6.0"}
+        metosin/muuntaja {:mvn/version "0.6.8"}}
+ :aliases {:serve
+           {:exec-fn ringa.core/-main}}}
